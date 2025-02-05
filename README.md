@@ -20,8 +20,8 @@ The application allows users to send chat messages via a web interface. When a u
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/local-chat-app.git
-   cd local-chat-app
+   git clone https://github.com/your-username/streamlit_ollama_chat_app.git
+   cd streamlit_ollama_chat_app
    ```
 
 2. **Set up your environment using Pipenv:**
