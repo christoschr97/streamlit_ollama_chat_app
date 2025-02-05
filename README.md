@@ -1,4 +1,3 @@
-```markdown
 # Local Chat App with Ollama & Streamlit
 
 This project is a simple chat application built with [Streamlit](https://streamlit.io/) that interacts with a locally hosted language model served by [Ollama](https://ollama.com/). The model is run manually via the terminal (using `ollama serve`), and the Streamlit app communicates with it through HTTP requests.
@@ -122,5 +121,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - [Ollama](https://ollama.com/) for providing the local model serving capability.
-- [Streamlit](https://streamlit.io/) for making it easy to build interactive web applications in Python.
-```
+- [Streamlit](https://streamlit.io/) for making it easy to build interactive web applications in 
