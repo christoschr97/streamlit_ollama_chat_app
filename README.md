@@ -24,17 +24,11 @@ The application allows users to send chat messages via a web interface. When a u
    cd local-chat-app
    ```
 
-2. **Create and activate a virtual environment (recommended):**
+2. **Set up your environment using Pipenv:**
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the required Python packages:**
-
-   ```bash
-   pip install streamlit requests
+   pipenv install streamlit requests
+   pipenv shell
    ```
 
 ## Configuration
@@ -65,7 +59,7 @@ This command will load your local models and listen for API requests on port 114
 
 ### 2. Launch the Streamlit App
 
-In another terminal (with your virtual environment activated), run:
+In another terminal (with your Pipenv shell active), run:
 
 ```bash
 streamlit run app.py
@@ -121,4 +115,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - [Ollama](https://ollama.com/) for providing the local model serving capability.
-- [Streamlit](https://streamlit.io/) for making it easy to build interactive web applications in 
+- [Streamlit](https://streamlit.io/) for making it easy to build interactive web applications in Python
